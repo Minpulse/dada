@@ -826,6 +826,7 @@ footer {
 }
 @media (max-width: 768px) {
     body {
+        
     }
     .container {
         width: 80%;
@@ -833,7 +834,13 @@ footer {
     .header-top {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;        
+    }
+    nav {
+        display: none;
+    }
+    .order-button {
+        display: none;
     }
     .contact-info,
     .logo-area {
@@ -891,7 +898,19 @@ footer {
         flex-direction: column;
 align-items: center;
   margin-left: 0px;
-        width: 100%;
+        width: 442px;
+        height: 330px;
+        position: relative;
+        left: 85px;
+    }
+    .testimonial .author1 {
+        position: absolute;
+        top: 190px;
+    }
+    .testimonial .quote-icon1 {
+        position: absolute;
+        left: 275px;
+        top: 130px;
     }
     .testimonial {
         width: 90%;
