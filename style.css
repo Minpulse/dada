@@ -352,7 +352,13 @@ header nav a:hover {
 
 .testimonial p {
     color: #555;
-    font-size: 1.1em;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.testimonial2 p {
+    color: #555;
+    font-size: 1em;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -361,13 +367,13 @@ header nav a:hover {
 
     color: #6B7280;
     position: absolute;
-    bottom: -80px;
+    bottom: -120px;
 }
 .testimonial2 .author2 {
  
     color: #6B7280;
     position: relative;
-    bottom: -30px;
+    bottom: -15px;
     
 }
 
@@ -380,18 +386,19 @@ header nav a:hover {
     font-family: serif;
 }
 .testimonial2 .quote-icon2 {
-    position: absolute;
+    position: relative;
     top: 130px;
     left: 375px;
     font-size: 7em;
     color: #ddd;
     font-family: serif;
-    bottom: 30px;
+    bottom: 20px;
 }
 
 .slider-controls {
     text-align: center;
     margin-top: 20px;
+    width: 100px;
 }
 
 .slider-controls button {
@@ -609,11 +616,7 @@ footer {
     }
     .next-testimonial {
         position: absolute;
-        align-items: center;
-      
-        .slider-controls {
-        width: 100px;
-      }   
+        align-items: center;   
     }
     .guarantee-images {
         align-items: center;
@@ -669,8 +672,30 @@ footer {
         max-width: 45%;
     }
 
-    .testimonial {
-        width: 90%;
+    .testimonials-slider {
+        width: 80%;
+        position: relative;
+        left: 120px;
+        height: 240px;
+    }
+    .next-testimonial {
+        position: relative;
+    }
+    .testimonial p {
+        font-size: 1.1em;
+    }
+    .testimonial .quote-icon1 {
+        position: absolute;
+        left: 450px;
+        top: 90px;
+    }
+    .testimonial .author1 {
+        position: absolute;
+        top: 150px;
+    }
+    .testimonial2 {
+        display: none;
+        
     }
 
     .testimonials-slider {
@@ -766,6 +791,7 @@ footer {
         margin-bottom: 10px;
         
     }
+    .testimonial2
 
     .footer-content {
         flex-direction: column;
@@ -797,13 +823,9 @@ footer {
         bottom: -52px;
         border-radius: 100px;
     }
-    .Burger {
-        display: none;
-    }
 }
 @media (max-width: 768px) {
     body {
-        overflow-x: hidden;
     }
     .container {
         width: 80%;
@@ -925,4 +947,6 @@ align-items: center;
     .footer-links a {
         margin: 5px 0;
     }
+    
 }
+
